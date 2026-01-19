@@ -67,3 +67,19 @@ bike-sharing/
 ├── README.md
 └── .gitignore
 ```
+
+## 📈 Results & Insights
+
+The exploratory data analysis reveals several important patterns in bike rental behavior:
+
+### 1. Impact of Weather Conditions
+Bike rentals are highly influenced by weather conditions. Clear weather shows the highest median and overall rental counts, followed by misty conditions. Rental demand drops significantly during light rain or snow and becomes minimal during heavy rain or snow. This indicates that unfavorable weather strongly discourages bike usage.
+
+### 2. Peak Rental Hours: Weekdays vs Weekends
+Distinct hourly usage patterns are observed between weekdays and weekends. On weekdays, bike rentals peak during morning (around 8 AM) and evening hours (around 5–6 PM), reflecting commuting behavior. In contrast, weekends show a more evenly distributed pattern with higher usage during midday and afternoon hours, indicating leisure-oriented usage.
+
+### 3. Holidays vs Working Days
+Bike rentals are generally lower on holidays compared to non-holidays (working days). This suggests that commuting demand from registered users significantly contributes to higher rental counts on working days.
+
+Overall, the analysis highlights that time-related factors (hour, weekday), weather conditions, and calendar effects (holidays) play a crucial role in shaping bike sharing demand.
+
